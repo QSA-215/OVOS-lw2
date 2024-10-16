@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:14
 WORKDIR /app
 COPY /2048-game /app
 EXPOSE 8080
